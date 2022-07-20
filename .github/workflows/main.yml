@@ -32,6 +32,5 @@ jobs:
           # Push is a shorthand for --output=type=registry
           push: true
           # List of tags
-          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/docker-node-example
           # Sets the target stage to build
           target: prod
